@@ -18,7 +18,7 @@ const Counter = () => {
        
         const resetAll = () => {
             setIncrementAmount(0);
-            dispatch(reset);
+            dispatch(reset());
         }
         
     return (
