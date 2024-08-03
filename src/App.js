@@ -1,10 +1,11 @@
-
+import Counter from './features/counter/Counter';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-        <h1>This is matt</h1>
+       <Counter />
     </div>
   );
 }
